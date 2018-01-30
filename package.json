@@ -21,5 +21,8 @@
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
