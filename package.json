@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "This is just a test",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impriyansh8/bootstrap4.git"
+  },
+  "author": "Priyansh Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/impriyansh8/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/impriyansh8/bootstrap4#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "lite-server": "^2.3.0"
+  }
+}
