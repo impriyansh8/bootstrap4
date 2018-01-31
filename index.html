@@ -29,7 +29,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <div class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal" role="button">
+                    <a id="loginBtn" role="button">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </div>
@@ -72,7 +72,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Reserve a Table</h4>
-                    <span class="close" data-dismiss="modal" role="button">&times;</span>
+                    <button class="close" data-dismiss="modal" role="button">&times;</button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -161,7 +161,7 @@
                     <img class="img-fluid" src="img/logo.png" />
                 </div>
                 <div class="col col-sm-3 align-self-center">
-                    <a role="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#tableModal"> 
+                    <a role="button" class="btn btn-warning btn-sm btn-block" id="tableBtn"> 
                         Reserve a Table
                     </a>
                 </div>

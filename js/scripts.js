@@ -15,4 +15,10 @@ $('document').ready(function(){
             $('#carousel-button').children('span').addClass('fa-pause');
         }
     });
+    $('#loginBtn').click(function(){
+        $('#loginModal').modal('show');
+    });
+    $('#tableBtn').click(function(){
+        $('#tableModal').modal('show');
+    });
 });

@@ -79,3 +79,18 @@ body{
         margin: 0px 3px;
     }
 }
+.modal{
+    .modal-header{
+        background: $background-dark;
+        color: floralwhite;
+        button{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background: $background-fade;
+    }
+    .modal-footer{
+        background: $background-light;
+    }
+}

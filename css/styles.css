@@ -65,3 +65,15 @@ body {
   height: 12px;
   background-color: #fff;
   margin: 0px 3px; }
+
+.modal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background: #D1C4E9; }
+
+.modal .modal-footer {
+  background: #9575CD; }
